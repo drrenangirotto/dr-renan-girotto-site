@@ -321,6 +321,10 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdro
 .metab-card h3{font-size:1.15rem;font-weight:800;color:#fff}
 .metab-card .device{color:var(--teal-500);font-weight:700;font-size:.9rem;margin-top:2px}
 .metab-card p{color:#9FB4BF;font-size:.9rem;margin-top:12px}
+.metab-grid.stacked{grid-template-columns:1fr;max-width:760px;margin:44px auto 0}
+.metab-card .exam-detail{margin-top:18px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12)}
+.metab-card .exam-detail h4{font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--teal-500);margin-bottom:6px}
+.metab-card .exam-detail p{margin-top:0}
 .metab-cta{text-align:center;margin-top:44px}
 
 /* ---------- Credenciais ---------- */
@@ -622,24 +626,48 @@ footer li{list-style:none;padding:4px 0}
     <span class="metab-tagline">Metabolismo medido, não estimado</span>
     <h2 class="section-title">Avaliação Metabólica Completa</h2>
     <p class="section-sub">A clínica dispõe de equipamentos de precisão para medir — e não apenas estimar — o funcionamento do seu metabolismo</p>
-    <div class="metab-grid">
+    <div class="metab-grid stacked">
       <div class="metab-card">
         <span class="tag">Padrão-ouro</span>
-        <h3>Calorimetria Indireta</h3>
+        <h3>O que é Calorimetria Indireta?</h3>
         <div class="device">HandyMet</div>
-        <p>Mede quantas calorias o seu corpo realmente gasta em repouso. É a base para um plano de emagrecimento ou ganho de massa preciso, sem fórmulas genéricas.</p>
+        <p>É o exame que mede — por troca gasosa, a partir do consumo de oxigênio e da produção de gás carbônico — quantas calorias o seu corpo realmente gasta em repouso. Em vez de estimar essa taxa metabólica basal por fórmulas de peso, altura e idade, ela é medida individualmente, em poucos minutos, com o paciente respirando em repouso.</p>
+        <div class="exam-detail">
+          <h4>Para quem é indicado</h4>
+          <p>Pessoas que já tentaram dietas "de tabela" sem resultado, quadros de platô no emagrecimento, atletas ajustando ingestão calórica à performance, e qualquer avaliação metabólica que precise de precisão real.</p>
+        </div>
+        <div class="exam-detail">
+          <h4>O que o resultado mostra</h4>
+          <p>O gasto calórico exato de repouso, permitindo prescrever dieta e treino ajustados ao metabolismo individual — não a uma fórmula genérica de calculadora online.</p>
+        </div>
       </div>
       <div class="metab-card">
         <span class="tag">Composição corporal</span>
-        <h3>Bioimpedância</h3>
+        <h3>O que é Bioimpedância?</h3>
         <div class="device">InBody 120</div>
-        <p>Analisa massa muscular, gordura corporal e água por segmento do corpo. Acompanha a evolução real do tratamento, além do número na balança.</p>
+        <p>É a análise da composição corporal por bioimpedância elétrica segmentar: uma corrente elétrica de baixa intensidade, imperceptível, percorre o corpo e mede massa magra, massa gorda e água corporal separadamente em tronco, braços e pernas.</p>
+        <div class="exam-detail">
+          <h4>Para quem é indicado</h4>
+          <p>Emagrecimento e hipertrofia, acompanhamento de reposição hormonal (que altera a composição corporal de forma real, além do peso), e avaliação de massa muscular em planos de longevidade.</p>
+        </div>
+        <div class="exam-detail">
+          <h4>O que o resultado mostra</h4>
+          <p>A evolução real do tratamento além do número na balança: quanto foi gordura, quanto foi músculo, e se há diferenças entre lados ou segmentos do corpo que precisem de atenção.</p>
+        </div>
       </div>
       <div class="metab-card">
         <span class="tag">Qualidade do sono</span>
-        <h3>Polissonografia Domiciliar</h3>
+        <h3>O que é Polissonografia Domiciliar?</h3>
         <div class="device">Biologix — Tipo 4</div>
-        <p>Triagem de apneia do sono realizada no conforto da sua casa. O sono é um pilar do metabolismo: dormir mal dificulta emagrecer e regular hormônios.</p>
+        <p>É um exame de triagem do sono realizado no conforto da sua própria casa, com um equipamento portátil (tipo 4) que registra variáveis respiratórias e a oxigenação do sangue durante a noite, sem a necessidade de internação em laboratório do sono.</p>
+        <div class="exam-detail">
+          <h4>Para quem é indicado</h4>
+          <p>Suspeita de apneia obstrutiva do sono, dificuldade de emagrecer apesar de dieta e treino adequados, fadiga e sonolência diurna, ou hipertensão e resistência à insulina sem causa aparente.</p>
+        </div>
+        <div class="exam-detail">
+          <h4>O que o resultado mostra</h4>
+          <p>Eventos respiratórios durante o sono e o índice de apneia-hipopneia (IAH) — informações que muitas vezes explicam por que o metabolismo não responde ao tratamento quando o sono está comprometido.</p>
+        </div>
       </div>
     </div>
     <div class="metab-cta">

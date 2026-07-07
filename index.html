@@ -50,9 +50,14 @@
         "postalCode": "80250-042",
         "addressCountry": "BR"
       },
+      "worksFor": [
+        { "@id": "https://drrenangirotto.com.br/#clinica-curitiba" },
+        { "@id": "https://drrenangirotto.com.br/#clinica-rio" }
+      ],
       "sameAs": [
         "https://instagram.com/drrenangirotto",
-        "https://instagram.com/rioclinic.rio"
+        "https://instagram.com/rioclinic.rio",
+        "https://www.doctoralia.com.br/renan-girotto/endocrinologista-medico-clinico-geral/curitiba"
       ],
       "knowsAbout": [
         "Calorimetria Indireta",
@@ -81,6 +86,13 @@
         "postalCode": "80250-042",
         "addressCountry": "BR"
       },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -25.4545784,
+        "longitude": -49.2706184
+      },
+      "areaServed": { "@type": "City", "name": "Curitiba" },
+      "sameAs": [ "https://rioclinic.com.br/" ],
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
@@ -101,6 +113,8 @@
         "postalCode": "22640-100",
         "addressCountry": "BR"
       },
+      "areaServed": { "@type": "City", "name": "Rio de Janeiro" },
+      "sameAs": [ "https://rioclinic.com.br/" ],
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
@@ -182,6 +196,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Cancelamentos e remarcações podem ser feitos pelo WhatsApp. Pedimos aviso com antecedência mínima de 24 horas para liberar o horário a outro paciente."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A clínica também oferece nutrição e estética?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Além da endocrinologia, a Clínica RIOclinic conta com equipe própria de nutrição e estética (procedimentos injetáveis e não invasivos), com profissionais especializados em cada área. Saiba mais em rioclinic.com.br."
           }
         }
       ]
@@ -335,6 +357,20 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdro
 .cert-card strong{display:block}
 .cert-card span{color:var(--ink-soft);font-size:.9rem}
 
+/* ---------- Depoimentos ---------- */
+.reviews-badge{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:36px;flex-wrap:wrap}
+.reviews-badge .stars{color:#F5B400;font-size:1.1rem;letter-spacing:2px}
+.reviews-badge span{font-size:.92rem;color:var(--ink-soft)}
+.reviews-badge a{font-weight:700}
+.review-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.review-card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px;box-shadow:var(--shadow)}
+.review-card .rstars{color:#F5B400;font-size:.9rem;letter-spacing:2px;margin-bottom:10px}
+.review-card p{color:var(--ink);font-size:.92rem;font-style:italic}
+.review-card .rmeta{margin-top:14px;display:flex;justify-content:space-between;align-items:center}
+.review-card .rname{font-weight:800;font-size:.88rem;color:var(--ink)}
+.review-card .rdate{font-size:.78rem;color:var(--ink-soft)}
+.review-cta{text-align:center;margin-top:32px}
+
 /* ---------- Locais ---------- */
 .tabs{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:28px}
 .tab-btn{padding:11px 22px;border-radius:999px;border:1.5px solid var(--line);background:var(--white);font-weight:700;font-size:.9rem;color:var(--ink-soft);cursor:pointer;transition:all .15s ease}
@@ -471,6 +507,7 @@ footer li{list-style:none;padding:4px 0}
       <a href="#servicos">Áreas de Atuação</a>
       <a href="#exames">Avaliação Metabólica</a>
       <a href="#sobre">Sobre</a>
+      <a href="#depoimentos">Depoimentos</a>
       <a href="#locais">Locais</a>
       <a href="#faq">Dúvidas</a>
     </nav>
@@ -483,6 +520,7 @@ footer li{list-style:none;padding:4px 0}
       <a href="#servicos">Áreas de Atuação</a>
       <a href="#exames">Avaliação Metabólica</a>
       <a href="#sobre">Sobre</a>
+      <a href="#depoimentos">Depoimentos</a>
       <a href="#locais">Locais</a>
       <a href="#faq">Dúvidas</a>
     </nav>
@@ -689,6 +727,13 @@ footer li{list-style:none;padding:4px 0}
           <span>Calorimetria indireta, bioimpedância e polissonografia domiciliar realizadas dentro da própria clínica, sem encaminhamento externo</span>
         </div>
       </div>
+      <div class="diff-item">
+        <div class="diff-dot"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H7a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+        <div>
+          <strong>Equipe multidisciplinar na Clínica RIOclinic</strong>
+          <span>Além da endocrinologia, a clínica conta com profissionais próprios de nutrição e estética (procedimentos injetáveis e não invasivos) — saiba mais em <a href="https://rioclinic.com.br" target="_blank" rel="noopener">rioclinic.com.br</a></span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -748,6 +793,43 @@ footer li{list-style:none;padding:4px 0}
           <span>Área de atuação complementar em fisiologia do exercício e performance</span>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DEPOIMENTOS ================= -->
+<section id="depoimentos">
+  <div class="container">
+    <h2 class="section-title">O que dizem os pacientes</h2>
+    <p class="section-sub">Avaliações reais e verificadas de pacientes atendidos pelo Dr. Renan Girotto</p>
+    <div class="reviews-badge">
+      <span class="stars">★★★★★</span>
+      <span>Nota 5 de 5 no Doctoralia, com avaliações verificadas — <a href="https://www.doctoralia.com.br/renan-girotto/endocrinologista-medico-clinico-geral/curitiba" target="_blank" rel="noopener">ver perfil completo</a></span>
+    </div>
+    <div class="review-grid">
+      <div class="review-card">
+        <div class="rstars">★★★★★</div>
+        <p>"Didata, minucioso e altamente atencioso, educado. Foca no tratamento da origem do problema e não só nos resultados. Endócrino de excelência. Super recomendo."</p>
+        <div class="rmeta"><span class="rname">Glaucia Grimaldi</span><span class="rdate">abr/2024</span></div>
+      </div>
+      <div class="review-card">
+        <div class="rstars">★★★★★</div>
+        <p>"Dr Renan é incrível! Excelente profissional e ser humano. Cuidou do meu pai e ajudou a salvar a vida dele. Agora também é meu médico. Trabalha com o coração, com um cuidado espetacular!"</p>
+        <div class="rmeta"><span class="rname">Alessandra Oliveira</span><span class="rdate">jan/2024</span></div>
+      </div>
+      <div class="review-card">
+        <div class="rstars">★★★★★</div>
+        <p>"Tenho o Dr. Renan como o melhor médico endocrinologista que já me acompanhou clinicamente. Profissional altamente qualificado, atencioso e muito atualizado. Recomendo!"</p>
+        <div class="rmeta"><span class="rname">Marcus Damasceno</span><span class="rdate">nov/2023</span></div>
+      </div>
+      <div class="review-card">
+        <div class="rstars">★★★★★</div>
+        <p>"Dr Renan médico super atencioso, esclarece todas as dúvidas, muito humano, me senti muito bem sendo atendida pelo Dr, excelente consulta."</p>
+        <div class="rmeta"><span class="rname">Thays Trajano</span><span class="rdate">jan/2024</span></div>
+      </div>
+    </div>
+    <div class="review-cta">
+      <a class="btn btn-ghost" href="https://www.doctoralia.com.br/renan-girotto/endocrinologista-medico-clinico-geral/curitiba" target="_blank" rel="noopener">Ver todas as avaliações no Doctoralia</a>
     </div>
   </div>
 </section>
@@ -970,6 +1052,10 @@ footer li{list-style:none;padding:4px 0}
         <button class="faq-q" type="button">Qual é a política de cancelamento?</button>
         <div class="faq-a"><p>Cancelamentos e remarcações podem ser feitos pelo WhatsApp. Pedimos aviso com antecedência mínima de 24 horas para liberar o horário a outro paciente.</p></div>
       </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button">A clínica também oferece nutrição e estética?</button>
+        <div class="faq-a"><p>Sim. Além da endocrinologia, a Clínica RIOclinic conta com equipe própria de nutrição e estética (procedimentos injetáveis e não invasivos), com profissionais especializados em cada área. Saiba mais em <a href="https://rioclinic.com.br" target="_blank" rel="noopener">rioclinic.com.br</a>.</p></div>
+      </div>
     </div>
   </div>
 </section>
@@ -1010,6 +1096,7 @@ footer li{list-style:none;padding:4px 0}
           <li><a href="#servicos">Áreas de Atuação</a></li>
           <li><a href="#exames">Avaliação Metabólica</a></li>
           <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
           <li><a href="#formacao">Formação</a></li>
           <li><a href="#locais">Locais</a></li>
           <li><a href="#faq">FAQ</a></li>
@@ -1023,6 +1110,7 @@ footer li{list-style:none;padding:4px 0}
           <li style="margin-top:14px"><strong style="color:#fff">Rio de Janeiro:</strong> Av. das Américas, 500 — (Shopping Downtown), Barra da Tijuca, CEP 22640-100</li>
           <li style="margin-top:6px">(21) 96849-7557</li>
           <li style="margin-top:14px"><a href="https://drrenangirotto.com.br" target="_blank" rel="noopener">drrenangirotto.com.br</a></li>
+          <li style="margin-top:6px"><a href="https://rioclinic.com.br" target="_blank" rel="noopener">rioclinic.com.br</a> — nutrição e estética</li>
         </ul>
       </div>
       <div>
@@ -1117,7 +1205,7 @@ document.addEventListener('keydown', (e) => {
 });
 // Revelação suave ao rolar
 if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  const revealSelector = '.section-title,.section-sub,.area-card,.metab-card,.cred-card,.cert-card,.step,.imp-card,.diff-item,.tl-item,.place-card,.faq-item,.info-box';
+  const revealSelector = '.section-title,.section-sub,.area-card,.metab-card,.cred-card,.cert-card,.step,.imp-card,.diff-item,.tl-item,.place-card,.faq-item,.info-box,.review-card';
   const revealEls = document.querySelectorAll(revealSelector);
   const io = new IntersectionObserver((entries) => {
     entries.forEach((entry, i) => {

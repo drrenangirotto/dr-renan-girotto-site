@@ -1,0 +1,21 @@
+{
+  "name": "Dr. Renan Girotto — Endocrinologista",
+  "short_name": "Dr. Renan Girotto",
+  "description": "Endocrinologista em Curitiba e Rio de Janeiro. Avaliação metabólica com calorimetria indireta e bioimpedância.",
+  "start_url": "https://drrenangirotto.com.br/",
+  "display": "standalone",
+  "background_color": "#F7F5EF",
+  "theme_color": "#0B1E2D",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

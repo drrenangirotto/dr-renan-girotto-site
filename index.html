@@ -26,6 +26,8 @@
 <meta name="theme-color" content="#0B1E2D">
 <meta name="google-site-verification" content="bKKpK1sDwEfSyNa7iRT7uYnimr3L-EX3bqaA7PcQcAc" />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230B1E2D'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' font-weight='700' fill='%2314B8A6' text-anchor='middle'%3ERG%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:ital,wght@0,600;1,500;1,600&display=swap" rel="stylesheet">
@@ -71,6 +73,36 @@
         "reviewCount": "17",
         "url": "https://www.doctoralia.com.br/renan-girotto/endocrinologista-medico-clinico-geral/curitiba"
       },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Glaucia Grimaldi" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Didata, minucioso e altamente atencioso, educado. Foca no tratamento da origem do problema e não só nos resultados. Endócrino de excelência. Super recomendo.",
+          "datePublished": "2024-04"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Alessandra Oliveira" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Dr Renan é incrível! Excelente profissional e ser humano. Cuidou do meu pai e ajudou a salvar a vida dele. Agora também é meu médico. Trabalha com o coração, com um cuidado espetacular!",
+          "datePublished": "2024-01"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Marcus Damasceno" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Tenho o Dr. Renan como o melhor médico endocrinologista que já me acompanhou clinicamente. Profissional altamente qualificado, atencioso e muito atualizado. Recomendo!",
+          "datePublished": "2023-11"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Thays Trajano" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "Dr Renan médico super atencioso, esclarece todas as dúvidas, muito humano, me senti muito bem sendo atendida pelo Dr, excelente consulta.",
+          "datePublished": "2024-01"
+        }
+      ],
       "knowsAbout": [
         "Calorimetria Indireta",
         "Metabolismo",
@@ -261,6 +293,9 @@ section{padding:72px 0}
 .btn-whats{background:#22C55E;color:#fff}
 .btn-whats:hover{transform:translateY(-2px)}
 
+/* ---------- Barra de progresso de leitura ---------- */
+.progress-bar{position:fixed;top:0;left:0;height:3px;width:0%;background:var(--grad);z-index:70;transition:width .1s linear}
+
 /* ---------- Header ---------- */
 header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .header-inner{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;flex-wrap:wrap}
@@ -270,7 +305,8 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdro
 .brand-txt span{font-size:.78rem;color:var(--ink-soft)}
 .header-nav{display:flex;gap:22px;align-items:center}
 .header-nav a{font-size:.88rem;font-weight:600;color:var(--ink-soft);transition:color .15s ease}
-.header-nav a:hover{color:var(--teal-700)}
+.header-nav a:hover,.header-nav a.active{color:var(--teal-700)}
+.mobile-nav a.active{color:var(--teal-700)}
 .header-actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .header-actions .btn{padding:9px 16px;font-size:.82rem}
 .menu-toggle{display:none;width:40px;height:40px;border-radius:10px;border:1.5px solid var(--line);background:var(--white);cursor:pointer;align-items:center;justify-content:center;flex:0 0 auto}
@@ -382,7 +418,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdro
 .reviews-badge .stars{color:#F5B400;font-size:1.1rem;letter-spacing:2px}
 .reviews-badge span{font-size:.92rem;color:var(--ink-soft)}
 .reviews-badge a{font-weight:700}
-.review-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.review-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:20px}
 .review-card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px;box-shadow:var(--shadow)}
 .review-card .rstars{color:#F5B400;font-size:.9rem;letter-spacing:2px;margin-bottom:10px}
 .review-card p{color:var(--ink);font-size:.92rem;font-style:italic}
@@ -405,7 +441,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdro
 .place-row .ic{flex:0 0 auto;width:36px;height:36px;border-radius:10px;background:var(--teal-050);color:var(--teal-700);display:flex;align-items:center;justify-content:center}
 .place-row strong{display:block;font-size:.92rem}
 .place-row span{color:var(--ink-soft);font-size:.88rem}
-.place-cta{padding:20px 24px;text-align:center}
+.place-cta{padding:20px 24px;text-align:center;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
 .tab-panel{display:none}
 .tab-panel.active{display:block;animation:fade .25s ease}
 @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
@@ -446,7 +482,6 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdro
 .faq-item.open .faq-q::after{transform:rotate(45deg)}
 .faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;background:var(--white)}
 .faq-a p{padding:18px 20px;color:var(--ink-soft);font-size:.92rem}
-.faq-item.open .faq-a{max-height:300px}
 .faq-q:focus-visible{outline:3px solid var(--navy-900);outline-offset:-3px}
 
 /* ---------- Contato ---------- */
@@ -479,6 +514,12 @@ footer li{list-style:none;padding:4px 0}
 .wa-option .num{display:block;font-weight:500;font-size:.78rem;color:var(--ink-soft)}
 .wa-option svg{flex:0 0 auto;color:#22C55E}
 
+/* ---------- Voltar ao topo ---------- */
+.back-to-top{position:fixed;left:20px;bottom:20px;z-index:60;width:46px;height:46px;border-radius:50%;background:var(--white);border:1px solid var(--line);color:var(--teal-700);display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow);cursor:pointer;opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .25s ease,transform .25s ease,visibility .25s}
+.back-to-top.show{opacity:1;visibility:visible;transform:none}
+.back-to-top:hover{transform:translateY(-2px)}
+.back-to-top:focus-visible{outline:3px solid var(--teal-700);outline-offset:2px}
+
 @media (max-width:820px){
   .header-nav{display:none}
   .menu-toggle{display:flex}
@@ -499,6 +540,7 @@ footer li{list-style:none;padding:4px 0}
   body{padding-bottom:72px}
   .mobile-cta-bar{display:flex}
   .wa-float{bottom:88px;right:16px}
+  .back-to-top{bottom:88px;left:16px}
 }
 .mobile-cta-bar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:59;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-top:1px solid var(--line)}
 .mobile-cta-bar .btn{width:100%}
@@ -512,6 +554,8 @@ footer li{list-style:none;padding:4px 0}
 </style>
 </head>
 <body>
+
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
 
 <!-- ================= HEADER ================= -->
 <header>
@@ -949,7 +993,10 @@ footer li{list-style:none;padding:4px 0}
           <div><strong>Horário de Funcionamento</strong><span>Segunda a Sexta, 9h às 18h</span></div>
         </div>
         <iframe src="https://www.google.com/maps?q=Rua+Brigadeiro+Franco,+3964+-+%C3%81gua+Verde,+Curitiba+-+PR,+80250-042&output=embed" width="100%" height="240" style="border:0;display:block" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa — Clínica RIOclinic Curitiba, Rua Brigadeiro Franco 3964"></iframe>
-        <div class="place-cta"><a class="btn btn-primary" href="https://wa.me/5541988551098" target="_blank" rel="noopener">Agendar em Curitiba</a></div>
+        <div class="place-cta">
+          <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&destination=Rua+Brigadeiro+Franco,+3964+-+%C3%81gua+Verde,+Curitiba+-+PR,+80250-042" target="_blank" rel="noopener">Como chegar</a>
+          <a class="btn btn-primary" href="https://wa.me/5541988551098" target="_blank" rel="noopener">Agendar em Curitiba</a>
+        </div>
       </div>
     </div>
 
@@ -1228,6 +1275,11 @@ footer li{list-style:none;padding:4px 0}
   </div>
 </footer>
 
+<!-- ================= VOLTAR AO TOPO ================= -->
+<button class="back-to-top" id="backToTop" type="button" aria-label="Voltar ao topo">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
 <!-- ================= WHATSAPP FLUTUANTE ================= -->
 <div class="mobile-cta-bar"><a class="btn btn-primary" href="#locais">Agendar Consulta</a></div>
 
@@ -1280,9 +1332,14 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
     document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
   });
 });
-// FAQ acordeão
+// FAQ acordeão (altura dinâmica, sem cortar respostas longas)
 document.querySelectorAll('.faq-q').forEach(q => {
-  q.addEventListener('click', () => q.parentElement.classList.toggle('open'));
+  q.addEventListener('click', () => {
+    const item = q.parentElement;
+    const answer = item.querySelector('.faq-a');
+    const isOpen = item.classList.toggle('open');
+    answer.style.maxHeight = isOpen ? answer.scrollHeight + 'px' : null;
+  });
 });
 // WhatsApp flutuante
 const waBtn = document.getElementById('waBtn');
@@ -1317,6 +1374,39 @@ if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-mot
     });
   }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
   revealEls.forEach(el => { el.classList.add('reveal'); io.observe(el); });
+}
+// Barra de progresso de leitura
+const progressBar = document.getElementById('progressBar');
+function updateProgressBar() {
+  const h = document.documentElement;
+  const scrollable = h.scrollHeight - h.clientHeight;
+  const pct = scrollable > 0 ? (h.scrollTop / scrollable) * 100 : 0;
+  progressBar.style.width = pct + '%';
+}
+window.addEventListener('scroll', updateProgressBar, { passive: true });
+updateProgressBar();
+// Voltar ao topo
+const backToTop = document.getElementById('backToTop');
+window.addEventListener('scroll', () => {
+  backToTop.classList.toggle('show', window.scrollY > 500);
+}, { passive: true });
+backToTop.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+});
+// Scroll-spy: destaca a seção atual no menu
+const spyLinks = document.querySelectorAll('.header-nav a, .mobile-nav a');
+const spySections = [...spyLinks]
+  .map(a => document.querySelector(a.getAttribute('href')))
+  .filter(Boolean);
+if ('IntersectionObserver' in window && spySections.length) {
+  const spyObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const id = '#' + entry.target.id;
+      spyLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === id));
+    });
+  }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
+  spySections.forEach(s => spyObserver.observe(s));
 }
 </script>
 </body>

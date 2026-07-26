@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B3N6NYVQSJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-B3N6NYVQSJ');
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dr. Renan Girotto | Endocrinologista em Curitiba e Rio de Janeiro</title>
@@ -1257,6 +1265,7 @@ window.dataLayer = window.dataLayer || [];
 function trackEvent(eventName, params = {}) {
   window.dataLayer.push({ event: eventName, ...params });
   window.dispatchEvent(new CustomEvent('site:track', { detail: { event: eventName, ...params } }));
+  if (typeof gtag === 'function') gtag('event', eventName, params);
 }
 document.addEventListener('click', (event) => {
   const link = event.target.closest('a');

@@ -16,6 +16,7 @@ Site institucional em português (pt-BR), voltado a pacientes buscando endocrino
 - [Menopausa e Climatério](https://drrenangirotto.com.br/menopausa-climaterio/): Acompanhamento endocrinológico no climatério e menopausa.
 - [Reposição Hormonal](https://drrenangirotto.com.br/reposicao-hormonal/): Avaliação endocrinológica para terapia hormonal feminina com acompanhamento.
 - [Telemedicina](https://drrenangirotto.com.br/telemedicina-endocrinologia/): Consulta online com endocrinologista para todo o Brasil.
+- [Dúvidas Frequentes](https://drrenangirotto.com.br/duvidas-frequentes/): Respostas sobre consultas, retorno, cancelamento, pagamento, reembolso de convênio, receitas digitais, telemedicina e exames metabólicos.
 - [Blog](https://drrenangirotto.com.br/blog/): Conteúdo educativo sobre metabolismo, avaliação metabólica e saúde hormonal.
 
 ## Optional

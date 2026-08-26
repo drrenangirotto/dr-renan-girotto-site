@@ -38,6 +38,9 @@
 <link rel="manifest" href="manifest.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Pré-carrega as duas fontes usadas acima da dobra, para que cheguem antes da primeira pintura e não causem reflow (CLS) no bloco de CTAs do hero -->
+<link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/plusjakartasans/v12/LDIoaomQNQcsA88c7O9yZ4KMCoOg4Ko20yygg_vb.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/fraunces/v38/6NUh8FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0K7iN7hzFUPJH58nib1603gg7S2nfgRYIcaRyTCf7Tp05GNyXk.woff2">
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:ital,wght@0,600;1,500;1,600&display=optional" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:ital,wght@0,600;1,500;1,600&display=optional" rel="stylesheet"></noscript>
 
@@ -666,6 +669,7 @@ footer li{list-style:none;padding:4px 0}
         <div class="cred-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z"/></svg></div>
         <h3>Endocrinologia Esportiva</h3>
         <p>Otimização hormonal e metabólica para atletas e praticantes de atividade física, com base em medicina do exercício e do esporte.</p>
+        <a class="card-link" href="/endocrinologia-esportiva/">Conhecer a avaliação</a>
       </div>
       <div class="area-card">
         <div class="cred-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21C7 17 3 13.5 3 9.5A4.5 4.5 0 0112 6a4.5 4.5 0 019 3.5c0 4-4 7.5-9 11.5z"/></svg></div>
@@ -1113,6 +1117,7 @@ footer li{list-style:none;padding:4px 0}
           <li><a href="/polissonografia-domiciliar/">Polissonografia domiciliar</a></li>
           <li><a href="/menopausa-climaterio/">Menopausa e climatério</a></li>
           <li><a href="/reposicao-hormonal/">Reposição hormonal</a></li>
+          <li><a href="/endocrinologia-esportiva/">Endocrinologia esportiva</a></li>
           <li><a href="/telemedicina-endocrinologia/">Telemedicina</a></li>
           <li><a href="/blog/">Blog</a></li>
         </ul>

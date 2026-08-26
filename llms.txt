@@ -14,7 +14,8 @@ Site institucional em português (pt-BR), voltado a pacientes buscando endocrino
 - [Bioimpedância InBody](https://drrenangirotto.com.br/bioimpedancia-inbody-curitiba/): Exame de bioimpedância InBody 120 em Curitiba para acompanhamento de composição corporal.
 - [Polissonografia Domiciliar](https://drrenangirotto.com.br/polissonografia-domiciliar/): Polissonografia domiciliar tipo 4 (Biologix) em Curitiba.
 - [Menopausa e Climatério](https://drrenangirotto.com.br/menopausa-climaterio/): Acompanhamento endocrinológico no climatério e menopausa.
-- [Reposição Hormonal](https://drrenangirotto.com.br/reposicao-hormonal/): Avaliação endocrinológica para terapia hormonal feminina com acompanhamento.
+- [Reposição Hormonal](https://drrenangirotto.com.br/reposicao-hormonal/): Consulta para reposição hormonal em Curitiba e por telemedicina, com diagnóstico antes da terapia e monitorização.
+- [Endocrinologia Esportiva](https://drrenangirotto.com.br/endocrinologia-esportiva/): Endocrinologista esportivo em Curitiba — avaliação hormonal e metabólica de atletas e praticantes, com calorimetria indireta e bioimpedância InBody.
 - [Telemedicina](https://drrenangirotto.com.br/telemedicina-endocrinologia/): Consulta online com endocrinologista para todo o Brasil.
 - [Dúvidas Frequentes](https://drrenangirotto.com.br/duvidas-frequentes/): Respostas sobre consultas, retorno, cancelamento, pagamento, reembolso de convênio, receitas digitais, telemedicina e exames metabólicos.
 - [Blog](https://drrenangirotto.com.br/blog/): Conteúdo educativo sobre metabolismo, avaliação metabólica e saúde hormonal.

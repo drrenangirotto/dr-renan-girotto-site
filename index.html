@@ -1207,7 +1207,7 @@ document.addEventListener('click', (event) => {
       const message = `Olá! Vim pelo site do Dr. Renan Girotto e gostaria de informações sobre ${service}.`;
       link.href = link.href + '?text=' + encodeURIComponent(message);
     }
-    trackEvent('whatsapp_click', { service, link_text: link.textContent.trim(), page_path: location.pathname });
+    trackEvent('whatsapp_click', { service, city: (link.href.includes('5548988487868') ? 'florianopolis' : link.href.includes('5521968497557') ? 'rio_online' : link.href.includes('5541988551098') ? 'curitiba' : 'outro'), link_text: link.textContent.trim(), page_path: location.pathname });
   } else if (link.dataset.track) {
     trackEvent(link.dataset.track, { service, link_text: link.textContent.trim(), page_path: location.pathname });
   }

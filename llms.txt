@@ -1,13 +1,14 @@
 # Dr. Renan Girotto
 
-> Dr. Renan Girotto é médico endocrinologista (CRM-PR 61319 | RQE 37880 e 37881; CRM-RJ 52-111202-3 | RQE 44048 e 45203; Ordem dos Médicos de Portugal, Secção Sul, Cédula 80058), com atuação em Curitiba e Rio de Janeiro. Co-fundador da RIOclinic. Diferencial: avaliação metabólica com estrutura própria de exames — calorimetria indireta (HandyMet), bioimpedância InBody 120 e polissonografia domiciliar tipo 4 (Biologix).
+> Dr. Renan Girotto é médico endocrinologista (CRM-PR 61319 | RQE 37880 e 37881; CRM-SC 44602 | RQE 30328 e 30333; CRM-RJ 52.0111202-3 | RQE 44048 e 45203; Ordem dos Médicos de Portugal, Secção Sul, Cédula 80058), com atendimento presencial em Curitiba e Florianópolis e telemedicina para todo o Brasil, incluindo Rio de Janeiro. Co-fundador da RIOclinic. Diferencial: avaliação metabólica com estrutura própria de exames — calorimetria indireta (HandyMet), bioimpedância InBody 120 e polissonografia domiciliar tipo 4 (Biologix).
 
-Site institucional em português (pt-BR), voltado a pacientes buscando endocrinologia, emagrecimento/obesidade, saúde hormonal e avaliação metabólica em Curitiba e Rio de Janeiro. Endereço de atendimento em Curitiba: Rua Brigadeiro Franco, 3964, Água Verde, CEP 80250-042. Atendimento no Rio de Janeiro atualmente por telemedicina.
+Site institucional em português (pt-BR), voltado a pacientes buscando endocrinologia, emagrecimento/obesidade, saúde hormonal e avaliação metabólica em Curitiba, Florianópolis e Rio de Janeiro. Endereço de atendimento em Curitiba: Rua Brigadeiro Franco, 3964, Água Verde, CEP 80250-042. Atendimento presencial também em Florianópolis (endereço informado no agendamento). Rio de Janeiro e demais localidades: telemedicina.
 
 ## Páginas
 
-- [Página inicial](https://drrenangirotto.com.br/): Apresentação geral — endocrinologista em Curitiba e Rio de Janeiro, avaliação metabólica com calorimetria indireta e bioimpedância.
+- [Página inicial](https://drrenangirotto.com.br/): Apresentação geral — endocrinologista em Curitiba, Florianópolis e Rio de Janeiro, avaliação metabólica com calorimetria indireta e bioimpedância.
 - [Endocrinologista em Curitiba](https://drrenangirotto.com.br/endocrinologista-curitiba/): Atendimento em Água Verde para obesidade, diabetes, tireoide, menopausa e saúde hormonal.
+- [Endocrinologista em Florianópolis](https://drrenangirotto.com.br/endocrinologista-florianopolis/): Atendimento presencial em Florianópolis-SC (endereço informado no agendamento), com calorimetria indireta, bioimpedância InBody e polissonografia domiciliar.
 - [Avaliação Metabólica](https://drrenangirotto.com.br/avaliacao-metabolica/): Avaliação integrando calorimetria indireta, bioimpedância InBody e triagem respiratória do sono conforme indicação clínica.
 - [Tratamento da Obesidade](https://drrenangirotto.com.br/emagrecimento-obesidade/): Tratamento médico individualizado para obesidade e emagrecimento com avaliação metabólica.
 - [Calorimetria Indireta](https://drrenangirotto.com.br/calorimetria-indireta-curitiba/): Exame de calorimetria indireta (HandyMet) realizado na RIOclinic sob responsabilidade clínica do Dr. Renan Girotto.

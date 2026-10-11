@@ -9,6 +9,9 @@ Site institucional em português (pt-BR), voltado a pacientes buscando endocrino
 - [Página inicial](https://drrenangirotto.com.br/): Apresentação geral — endocrinologista em Curitiba, Florianópolis e Rio de Janeiro, avaliação metabólica com calorimetria indireta e bioimpedância.
 - [Endocrinologista em Curitiba](https://drrenangirotto.com.br/endocrinologista-curitiba/): Atendimento em Água Verde para obesidade, diabetes, tireoide, menopausa e saúde hormonal.
 - [Endocrinologista em Florianópolis](https://drrenangirotto.com.br/endocrinologista-florianopolis/): Atendimento presencial em Florianópolis-SC (endereço informado no agendamento), com calorimetria indireta, bioimpedância InBody e polissonografia domiciliar.
+- [Tireoide](https://drrenangirotto.com.br/tireoide/): Hipotireoidismo, hipertireoidismo, Hashimoto e nódulos — presencial em Curitiba e Florianópolis e online.
+- [Diabetes](https://drrenangirotto.com.br/diabetes/): Pré-diabetes, diabetes tipo 1 e 2 e resistência à insulina — presencial em Curitiba e Florianópolis e online.
+- [Calorimetria Indireta em Florianópolis](https://drrenangirotto.com.br/calorimetria-indireta-florianopolis/): Exame de gasto energético de repouso em Florianópolis.
 - [Avaliação Metabólica](https://drrenangirotto.com.br/avaliacao-metabolica/): Avaliação integrando calorimetria indireta, bioimpedância InBody e triagem respiratória do sono conforme indicação clínica.
 - [Tratamento da Obesidade](https://drrenangirotto.com.br/emagrecimento-obesidade/): Tratamento médico individualizado para obesidade e emagrecimento com avaliação metabólica.
 - [Calorimetria Indireta](https://drrenangirotto.com.br/calorimetria-indireta-curitiba/): Exame de calorimetria indireta (HandyMet) realizado na RIOclinic sob responsabilidade clínica do Dr. Renan Girotto.

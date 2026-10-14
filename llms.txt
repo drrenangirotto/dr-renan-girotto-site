@@ -6,7 +6,7 @@ Site institucional em português (pt-BR), voltado a pacientes buscando endocrino
 
 ## Páginas
 
-- [Página inicial](https://drrenangirotto.com.br/): Apresentação geral — endocrinologista em Curitiba, Florianópolis e Rio de Janeiro, avaliação metabólica com calorimetria indireta e bioimpedância.
+- [Página inicial](https://drrenangirotto.com.br/): Apresentação geral — endocrinologista presencial em Curitiba e Florianópolis, online para todo o Brasil (incluindo Rio de Janeiro), avaliação metabólica com calorimetria indireta e bioimpedância.
 - [Endocrinologista em Curitiba](https://drrenangirotto.com.br/endocrinologista-curitiba/): Atendimento em Água Verde para obesidade, diabetes, tireoide, menopausa e saúde hormonal.
 - [Endocrinologista em Florianópolis](https://drrenangirotto.com.br/endocrinologista-florianopolis/): Atendimento presencial em Florianópolis-SC (endereço informado no agendamento), com calorimetria indireta, bioimpedância InBody e polissonografia domiciliar.
 - [Tireoide](https://drrenangirotto.com.br/tireoide/): Hipotireoidismo, hipertireoidismo, Hashimoto e nódulos — presencial em Curitiba e Florianópolis e online.

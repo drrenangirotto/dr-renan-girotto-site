@@ -564,6 +564,27 @@ footer li{list-style:none;padding:4px 0}
 .metab a:not(.btn){color:#9CC8F0}
 .hero-rating{background:#fff;border-color:var(--line)}
 .tab-btn.active{box-shadow:0 6px 16px rgba(6,21,41,.22)}
+
+/* ===== Hero com banner horizontal (rodada 9) ===== */
+.hero-banner{padding:40px 0 56px;text-align:left}
+.hero-banner .hb-img img{display:block;width:100%;height:auto;border-radius:22px;box-shadow:0 18px 44px rgba(7,26,51,.20)}
+.hero-banner .hb-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:44px;align-items:center;margin-top:40px}
+.hero-banner .hb-grid>*{min-width:0}
+.hero-banner h1{font-size:clamp(1.9rem,4.4vw,2.8rem);line-height:1.12;margin-top:2px}
+.hero-banner .value-prop{margin-top:14px}
+.hero-banner .hb-side{display:flex;flex-direction:column;align-items:stretch;background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 12px 32px rgba(7,26,51,.08)}
+.hero-banner .hb-side .hero-rating{margin-top:0;align-self:flex-start;border-radius:12px}
+.hero-banner .hb-side .cta{margin-top:18px;flex-direction:column}
+.hero-banner .hb-side .cta .btn{width:100%;justify-content:center;text-align:center}
+.hero-banner .hb-note{margin-top:12px;font-size:.8rem;color:var(--ink-soft);text-align:center}
+@media(max-width:900px){
+ .hero-banner{padding:20px 0 44px;text-align:center}
+ .hero-banner .hb-img img{border-radius:14px}
+ .hero-banner .hb-grid{grid-template-columns:1fr;gap:22px;margin-top:26px}
+ .hero-banner .hb-side{padding:20px}
+ .hero-banner .hb-side .hero-rating{align-self:center}
+ .hero-banner .hb-side .cta{justify-content:center}
+}
 </style>
 </head>
 <body>
@@ -605,34 +626,29 @@ footer li{list-style:none;padding:4px 0}
 <main id="conteudo">
 
 <!-- ================= HERO ================= -->
-<section class="hero" id="inicio">
+<section class="hero hero-banner" id="inicio">
   <div class="container">
-    <div class="hero-grid">
-      <div>
+    <picture class="hb-img">
+      <source media="(max-width:700px)" srcset="banner-dr-renan-girotto-1200.webp">
+      <img src="banner-dr-renan-girotto.webp" alt="Dr. Renan Girotto, endocrinologista e clínica médica — CRM-PR 61319, CRM-SC 44602, CRM-RJ 52.0111202-3 e Ordem dos Médicos de Portugal" width="2033" height="774" fetchpriority="high">
+    </picture>
+    <div class="hb-grid">
+      <div class="hb-main">
         <span class="hero-eyebrow">Metabolismo medido, não estimado</span>
-        <h1>Dr. Renan Girotto</h1>
-        <span class="role">Endocrinologista em Curitiba e Florianópolis</span>
+        <h1>Endocrinologista em Curitiba e Florianópolis</h1>
         <p class="value-prop">Endocrinologia baseada em diagnóstico preciso, avaliação metabólica integrada e acompanhamento individualizado.</p>
+        <p>Atendimento presencial em Curitiba-PR e Florianópolis-SC. Consulta online para todo o Brasil, incluindo Rio de Janeiro.</p>
+      </div>
+      <div class="hb-side">
         <div class="hero-rating">
           <span class="stars">★★★★★</span>
           <span>Nota 5,0 no Doctoralia — 26 avaliações verificadas</span>
         </div>
-        <p>Atendimento presencial em Curitiba-PR e Florianópolis-SC. Consulta online para todo o Brasil, incluindo Rio de Janeiro.</p>
         <div class="cta">
           <a class="btn btn-primary" href="#locais">Agendar Consulta</a>
           <a class="btn btn-ghost" href="#exames">Conheça a Avaliação Metabólica</a>
         </div>
-        <p style="margin-top:12px;font-size:.82rem;color:var(--ink-soft)">Valores informados diretamente no agendamento, sem cobranças ocultas.</p>
-      </div>
-      <div class="hero-photo">
-        <picture>
-          <source srcset="dr-renan-girotto.webp" type="image/webp">
-          <img src="dr-renan-girotto.jpg" alt="Dr. Renan Girotto, endocrinologista em Curitiba e Florianópolis" width="760" height="1013" fetchpriority="high">
-        </picture>
-        <div class="photo-badge">
-          <strong>Dr. Renan Girotto</strong>
-          <span>Endocrinologia e Metabologia — IEDE-RJ</span>
-        </div>
+        <p class="hb-note">Valores informados diretamente no agendamento, sem cobranças ocultas.</p>
       </div>
     </div>
   </div>
@@ -733,6 +749,57 @@ footer li{list-style:none;padding:4px 0}
   </div>
 </section>
 
+<!-- ================= DEPOIMENTOS ================= -->
+<section id="depoimentos">
+  <div class="container">
+    <h2 class="section-title">O que dizem os pacientes</h2>
+    <p class="section-sub">Avaliações reais e verificadas de pacientes atendidos pelo Dr. Renan Girotto</p>
+    <div class="reviews-badges">
+      <div class="rating-card">
+        <div class="rc-score">5,0</div>
+        <div class="rc-meta">
+          <div class="rc-stars">★★★★★</div>
+          <strong>Doctoralia</strong>
+          26 avaliações verificadas — <a href="https://www.doctoralia.com.br/renan-girotto/endocrinologista-especialista-em-clinica-medica/curitiba" target="_blank" rel="noopener" data-track="doctoralia_click">ver perfil completo</a>
+        </div>
+      </div>
+      <div class="rating-card">
+        <div class="rc-score">5,0</div>
+        <div class="rc-meta">
+          <div class="rc-stars">★★★★★</div>
+          <strong>Google — RIOclinic</strong>
+          <a href="https://www.google.com/maps/place/RIOclinic+Curitiba/@-25.4546185,-49.270797,17z/data=!3m1!4b1!4m6!3m5!1s0x94dce5909847e9df:0xce2fad1a99a67cf1!8m2!3d-25.4546185!4d-49.270797!16s%2Fg%2F11ykvwb_sw" target="_blank" rel="noopener" data-track="maps_click">Curitiba (18)</a> e <a href="https://www.google.com/maps/place/RIOclinic+Concept+-+Sa%C3%BAde+e+Bem+Estar/@-23.0044566,-43.3177268,17z/data=!3m1!4b1!4m6!3m5!1s0x9bd1e84cfdd7d5:0xc2ce4b0b206f3e0c!8m2!3d-23.0044566!4d-43.3177268!16s%2Fg%2F11thk1f2xj" target="_blank" rel="noopener" data-track="maps_click">Rio de Janeiro (63)</a>
+        </div>
+      </div>
+    </div>
+    <div class="review-grid">
+      <div class="review-card">
+        <div class="rstars">★★★★★</div>
+        <p>"Didata, minucioso e altamente atencioso, educado. Foca no tratamento da origem do problema e não só nos resultados. Endócrino de excelência. Super recomendo."</p>
+        <div class="rmeta"><span class="rname">Glaucia Grimaldi</span><span class="rdate">abr/2024</span></div>
+      </div>
+      <div class="review-card">
+        <div class="rstars">★★★★★</div>
+        <p>"Dr Renan é incrível! Excelente profissional e ser humano. Cuidou do meu pai e ajudou a salvar a vida dele. Agora também é meu médico. Trabalha com o coração, com um cuidado espetacular!"</p>
+        <div class="rmeta"><span class="rname">Alessandra Oliveira</span><span class="rdate">jan/2024</span></div>
+      </div>
+      <div class="review-card">
+        <div class="rstars">★★★★★</div>
+        <p>"Tenho o Dr. Renan como o melhor médico endocrinologista que já me acompanhou clinicamente. Profissional altamente qualificado, atencioso e muito atualizado. Recomendo!"</p>
+        <div class="rmeta"><span class="rname">Marcus Damasceno</span><span class="rdate">nov/2023</span></div>
+      </div>
+      <div class="review-card">
+        <div class="rstars">★★★★★</div>
+        <p>"Dr Renan médico super atencioso, esclarece todas as dúvidas, muito humano, me senti muito bem sendo atendida pelo Dr, excelente consulta."</p>
+        <div class="rmeta"><span class="rname">Thays Trajano</span><span class="rdate">jan/2024</span></div>
+      </div>
+    </div>
+    <div class="review-cta">
+      <a class="btn btn-ghost" href="https://www.doctoralia.com.br/renan-girotto/endocrinologista-especialista-em-clinica-medica/curitiba" target="_blank" rel="noopener" data-track="doctoralia_click">Ver todas as avaliações no Doctoralia</a>
+    </div>
+  </div>
+</section>
+
 <!-- ================= SOBRE ================= -->
 <section id="sobre">
   <div class="container">
@@ -754,7 +821,6 @@ footer li{list-style:none;padding:4px 0}
   <div class="container">
     <h2 class="section-title">Credenciais e Formação</h2>
     <p class="section-sub">Registros profissionais, trajetória acadêmica e reconhecimento</p>
-    <picture><source media="(max-width:700px)" srcset="banner-dr-renan-girotto-1200.webp"><img src="banner-dr-renan-girotto.webp" alt="Dr. Renan Girotto, endocrinologista e clínica médica — registros CRM-PR, CRM-SC, CRM-RJ e Ordem dos Médicos de Portugal" width="2033" height="774" loading="lazy" style="display:block;width:100%;height:auto;border-radius:18px;margin:0 0 32px;box-shadow:0 10px 30px rgba(7,26,51,.18)"></picture>
     <div class="cred-grid">
       <div class="cred-card">
         <div class="cred-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l7 4v6c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6l7-4z"/></svg></div>
@@ -888,56 +954,7 @@ footer li{list-style:none;padding:4px 0}
   </div>
 </section>
 
-<!-- ================= DEPOIMENTOS ================= -->
-<section id="depoimentos">
-  <div class="container">
-    <h2 class="section-title">O que dizem os pacientes</h2>
-    <p class="section-sub">Avaliações reais e verificadas de pacientes atendidos pelo Dr. Renan Girotto</p>
-    <div class="reviews-badges">
-      <div class="rating-card">
-        <div class="rc-score">5,0</div>
-        <div class="rc-meta">
-          <div class="rc-stars">★★★★★</div>
-          <strong>Doctoralia</strong>
-          26 avaliações verificadas — <a href="https://www.doctoralia.com.br/renan-girotto/endocrinologista-especialista-em-clinica-medica/curitiba" target="_blank" rel="noopener" data-track="doctoralia_click">ver perfil completo</a>
-        </div>
-      </div>
-      <div class="rating-card">
-        <div class="rc-score">5,0</div>
-        <div class="rc-meta">
-          <div class="rc-stars">★★★★★</div>
-          <strong>Google — RIOclinic</strong>
-          <a href="https://www.google.com/maps/place/RIOclinic+Curitiba/@-25.4546185,-49.270797,17z/data=!3m1!4b1!4m6!3m5!1s0x94dce5909847e9df:0xce2fad1a99a67cf1!8m2!3d-25.4546185!4d-49.270797!16s%2Fg%2F11ykvwb_sw" target="_blank" rel="noopener" data-track="maps_click">Curitiba (18)</a> e <a href="https://www.google.com/maps/place/RIOclinic+Concept+-+Sa%C3%BAde+e+Bem+Estar/@-23.0044566,-43.3177268,17z/data=!3m1!4b1!4m6!3m5!1s0x9bd1e84cfdd7d5:0xc2ce4b0b206f3e0c!8m2!3d-23.0044566!4d-43.3177268!16s%2Fg%2F11thk1f2xj" target="_blank" rel="noopener" data-track="maps_click">Rio de Janeiro (63)</a>
-        </div>
-      </div>
-    </div>
-    <div class="review-grid">
-      <div class="review-card">
-        <div class="rstars">★★★★★</div>
-        <p>"Didata, minucioso e altamente atencioso, educado. Foca no tratamento da origem do problema e não só nos resultados. Endócrino de excelência. Super recomendo."</p>
-        <div class="rmeta"><span class="rname">Glaucia Grimaldi</span><span class="rdate">abr/2024</span></div>
-      </div>
-      <div class="review-card">
-        <div class="rstars">★★★★★</div>
-        <p>"Dr Renan é incrível! Excelente profissional e ser humano. Cuidou do meu pai e ajudou a salvar a vida dele. Agora também é meu médico. Trabalha com o coração, com um cuidado espetacular!"</p>
-        <div class="rmeta"><span class="rname">Alessandra Oliveira</span><span class="rdate">jan/2024</span></div>
-      </div>
-      <div class="review-card">
-        <div class="rstars">★★★★★</div>
-        <p>"Tenho o Dr. Renan como o melhor médico endocrinologista que já me acompanhou clinicamente. Profissional altamente qualificado, atencioso e muito atualizado. Recomendo!"</p>
-        <div class="rmeta"><span class="rname">Marcus Damasceno</span><span class="rdate">nov/2023</span></div>
-      </div>
-      <div class="review-card">
-        <div class="rstars">★★★★★</div>
-        <p>"Dr Renan médico super atencioso, esclarece todas as dúvidas, muito humano, me senti muito bem sendo atendida pelo Dr, excelente consulta."</p>
-        <div class="rmeta"><span class="rname">Thays Trajano</span><span class="rdate">jan/2024</span></div>
-      </div>
-    </div>
-    <div class="review-cta">
-      <a class="btn btn-ghost" href="https://www.doctoralia.com.br/renan-girotto/endocrinologista-especialista-em-clinica-medica/curitiba" target="_blank" rel="noopener" data-track="doctoralia_click">Ver todas as avaliações no Doctoralia</a>
-    </div>
-  </div>
-</section>
+
 
 <!-- ================= LOCAIS ================= -->
 <section id="locais" style="background:var(--bg-soft)">

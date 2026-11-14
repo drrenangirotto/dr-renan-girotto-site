@@ -20,3 +20,4 @@ main section{padding:68px 0}.soft{background:var(--bg-soft)}h2{font-size:clamp(1
 .eyebrow,.hero-proof li::before{color:#9CC8F0}
 .service-hero h1,main h2{font-family:var(--font-voice);font-weight:600;letter-spacing:-.01em}
 .site-footer{color:#A9B6C6}
+main section.photo-band{padding:44px 0 0}.page-photo{margin:0;text-align:center}.page-photo img{display:inline-block;max-width:100%;max-height:460px;width:auto;height:auto;border-radius:var(--radius);box-shadow:var(--shadow)}.page-photo figcaption{font-size:.82rem;color:var(--ink-soft);margin-top:10px}

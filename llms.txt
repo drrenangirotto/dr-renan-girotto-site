@@ -2,27 +2,34 @@
 
 > Dr. Renan Girotto é médico endocrinologista (CRM-PR 61319 | RQE 37880 e 37881; CRM-SC 44602 | RQE 30328 e 30333; CRM-RJ 52.0111202-3 | RQE 44048 e 45203; Ordem dos Médicos de Portugal, Secção Sul, Cédula 80058), com atendimento presencial em Curitiba e Florianópolis e telemedicina para todo o Brasil, incluindo Rio de Janeiro. Co-fundador da RIOclinic. Diferencial: avaliação metabólica com estrutura própria de exames — calorimetria indireta (HandyMet), bioimpedância InBody 120 e polissonografia domiciliar tipo 4 (Biologix).
 
-Site institucional em português (pt-BR), voltado a pacientes buscando endocrinologia, emagrecimento/obesidade, saúde hormonal e avaliação metabólica em Curitiba, Florianópolis e Rio de Janeiro. Endereço de atendimento em Curitiba: Rua Brigadeiro Franco, 3964, Água Verde, CEP 80250-042. Atendimento presencial também em Florianópolis (endereço informado no agendamento). Rio de Janeiro e demais localidades: telemedicina.
+Site institucional em português (pt-BR), voltado a pacientes buscando endocrinologia, emagrecimento/obesidade, saúde hormonal e avaliação metabólica em Curitiba, Florianópolis e Rio de Janeiro. Endereço de atendimento em Curitiba: Rua Brigadeiro Franco, 3964, Água Verde, CEP 80250-042. Atendimento presencial também em Florianópolis: Rua Santos Dumont, 182, Centro, CEP 88015-020. Rio de Janeiro e demais localidades: telemedicina. Atendimento exclusivo para adultos (a partir de 18 anos).
 
 ## Páginas
 
 - [Página inicial](https://drrenangirotto.com.br/): Apresentação geral — endocrinologista presencial em Curitiba e Florianópolis, online para todo o Brasil (incluindo Rio de Janeiro), avaliação metabólica com calorimetria indireta e bioimpedância.
 - [Endocrinologista em Curitiba](https://drrenangirotto.com.br/endocrinologista-curitiba/): Atendimento em Água Verde para obesidade, diabetes, tireoide, menopausa e saúde hormonal.
-- [Endocrinologista em Florianópolis](https://drrenangirotto.com.br/endocrinologista-florianopolis/): Atendimento presencial em Florianópolis-SC (endereço informado no agendamento), com calorimetria indireta, bioimpedância InBody e polissonografia domiciliar.
+- [Endocrinologista em Florianópolis](https://drrenangirotto.com.br/endocrinologista-florianopolis/): Atendimento presencial em Florianópolis-SC (Rua Santos Dumont, 182, Centro), com calorimetria indireta, bioimpedância InBody e polissonografia domiciliar.
 - [Tireoide](https://drrenangirotto.com.br/tireoide/): Hipotireoidismo, hipertireoidismo, Hashimoto e nódulos — presencial em Curitiba e Florianópolis e online.
 - [Diabetes](https://drrenangirotto.com.br/diabetes/): Pré-diabetes, diabetes tipo 1 e 2 e resistência à insulina — presencial em Curitiba e Florianópolis e online.
-- [Calorimetria Indireta em Florianópolis](https://drrenangirotto.com.br/calorimetria-indireta-florianopolis/): Exame de gasto energético de repouso em Florianópolis.
+- [Calorimetria Indireta em Florianópolis](https://drrenangirotto.com.br/calorimetria-indireta-florianopolis/): Exame de gasto energético de repouso em Florianópolis (Rua Santos Dumont, 182, Centro).
 - [Avaliação Metabólica](https://drrenangirotto.com.br/avaliacao-metabolica/): Avaliação integrando calorimetria indireta, bioimpedância InBody e triagem respiratória do sono conforme indicação clínica.
 - [Tratamento da Obesidade](https://drrenangirotto.com.br/emagrecimento-obesidade/): Tratamento médico individualizado para obesidade e emagrecimento com avaliação metabólica.
 - [Calorimetria Indireta](https://drrenangirotto.com.br/calorimetria-indireta-curitiba/): Exame de calorimetria indireta (HandyMet) realizado na RIOclinic sob responsabilidade clínica do Dr. Renan Girotto.
 - [Bioimpedância InBody](https://drrenangirotto.com.br/bioimpedancia-inbody-curitiba/): Exame de bioimpedância InBody 120 em Curitiba para acompanhamento de composição corporal.
 - [Polissonografia Domiciliar](https://drrenangirotto.com.br/polissonografia-domiciliar/): Polissonografia domiciliar tipo 4 (Biologix) em Curitiba.
 - [Menopausa e Climatério](https://drrenangirotto.com.br/menopausa-climaterio/): Acompanhamento endocrinológico no climatério e menopausa.
+- [Saúde Hormonal Masculina](https://drrenangirotto.com.br/saude-hormonal-masculina/): Avaliação de cansaço, baixa libido e testosterona, com diagnóstico antes de qualquer reposição e monitorização.
 - [Reposição Hormonal](https://drrenangirotto.com.br/reposicao-hormonal/): Consulta para reposição hormonal em Curitiba e por telemedicina, com diagnóstico antes da terapia e monitorização.
 - [Endocrinologia Esportiva](https://drrenangirotto.com.br/endocrinologia-esportiva/): Endocrinologista esportivo em Curitiba — avaliação hormonal e metabólica de atletas e praticantes, com calorimetria indireta e bioimpedância InBody.
 - [Telemedicina](https://drrenangirotto.com.br/telemedicina-endocrinologia/): Consulta online com endocrinologista para todo o Brasil.
 - [Dúvidas Frequentes](https://drrenangirotto.com.br/duvidas-frequentes/): Respostas sobre consultas, retorno, cancelamento, pagamento, reembolso de convênio, receitas digitais, telemedicina e exames metabólicos.
 - [Blog](https://drrenangirotto.com.br/blog/): Conteúdo educativo sobre metabolismo, avaliação metabólica e saúde hormonal.
+- [Reposição hormonal feminina: por que a forma de uso também importa](https://drrenangirotto.com.br/blog/reposicao-hormonal-feminina-formas-de-uso/): Gel, adesivo ou comprimido: entenda por que a via de uso da reposição hormonal é escolhida de forma individual e como isso pode influenciar a resposta.
+- [Gasto energético de repouso: por que duas pessoas parecidas gastam diferente](https://drrenangirotto.com.br/blog/gasto-energetico-de-repouso/): Entenda o que é o gasto energético de repouso, por que fórmulas podem errar no caso individual e como a calorimetria indireta ajuda no plano nutricional.
+- [Canetas para emagrecer: o peso diminuiu, mas e a sua disposição?](https://drrenangirotto.com.br/blog/canetas-emagrecimento-cansaco/): Medicações para obesidade podem ajudar quando indicadas, mas não explicam por que o peso aumentou. Entenda por que o cansaço no tratamento merece avaliação.
+- [Cansaço e baixa libido com testosterona normal: o que investigar](https://drrenangirotto.com.br/blog/baixa-libido-testosterona-normal/): Cansaço, baixa libido e dificuldade de ereção podem ocorrer com testosterona normal. Conheça outras causas e por que investigar antes de qualquer reposição.
+- [Peso travado: quando o problema também está no sono](https://drrenangirotto.com.br/blog/sono-e-emagrecimento/): Dieta e treino em dia, mas o peso não responde? Entenda como o sono de má qualidade e a apneia do sono interferem na fome, na saciedade e no emagrecimento.
+- ["Sou muito nova para estar na menopausa": a insuficiência ovariana prematura](https://drrenangirotto.com.br/blog/insuficiencia-ovariana-prematura/): Ciclo irregular, ondas de calor e insônia antes dos 40 anos podem indicar insuficiência ovariana prematura. Entenda o diagnóstico e o acompanhamento.
 
 ## Optional
 

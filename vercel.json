@@ -1,6 +1,19 @@
 {
   "redirects": [
-    { "source": "/links", "destination": "/", "permanent": true },
-    { "source": "/links/", "destination": "/", "permanent": true }
+    {
+      "source": "/links",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/links/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/privacidade.html",
+      "destination": "/privacidade/",
+      "permanent": true
+    }
   ]
 }
